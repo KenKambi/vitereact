@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 
 function Counter () {
@@ -6,22 +6,26 @@ function Counter () {
     const [count, setCount] = useState(0);
     const [name, setName] = useState("");
 
+    useEffect(function (){
+        document.title = "Counter";
+    }, [])//will update only once because of the []
+
     function handleNameChange(e){
         setName(e.target.value);
     };
 
     
-    function decrease(){
+    function decreaseCount(){
         setCount(c => c - 1);
         console.log(count);
 
     };
 
-    function increase(){
+    function increaseCount(){
         setCount(c => c + 1);
     };
 
-    function reset(){
+    function resetCount(){
         setCount(0);
         //console.log(count);
     };
@@ -29,9 +33,9 @@ function Counter () {
     return( 
             <>
             <p> {count} </p>
-            <button onClick={decrease} >Decrease</button>
-            <button onClick={reset} >Reset</button>
-            <button onClick={increase} >Increase</button>
+            <button onClick={decreaseCount} >Decrease</button>
+            <button onClick={resetCount} >Reset</button>
+            <button onClick={increaseCount} >Increase</button>
             <div>
                 <input type="text" name="name" id="1" value={name} onChange={handleNameChange}/>
                 <p> {name} </p>
