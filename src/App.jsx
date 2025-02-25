@@ -1,14 +1,12 @@
-import Footer from "./Footer"
-import Header from "./Header"
-
+import Counter from "./Counter"
 
 function App() {
 
   return (
     <>
       <p>Hello There</p>
-      <Header/>
-      <Footer/>
+      <Counter />
+      
     </>
   )
 }
