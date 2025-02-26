@@ -35,7 +35,7 @@ const Greeting = () => {
     return ( 
         <>
             <p style={style}>
-                Greeting: {greet}. The time is {hour} {meridian}.
+                Greeting: {greet}. The time is {hour -12} {meridian}.
             </p>
             <p style={{backgroundColor : "green"}}> Let's change the color</p>
         </>

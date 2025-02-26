@@ -22,7 +22,16 @@ function App() {
       <p>Hello There</p>
       <Counter />
       <Greeting />
+      
+      <Props table = {{
+                    name: "Ken",
+                    age: 20,
+                    citizen: "Kenyan"
+                    }}/>
+      <Props table  />
+      
     </>
+
   )
 }
 
