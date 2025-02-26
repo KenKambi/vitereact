@@ -1,4 +1,5 @@
 import Counter from "./Counter"
+import Greeting from "./Greeting"
 
 function App() {
 
@@ -6,6 +7,7 @@ function App() {
     <>
       <p>Hello There</p>
       <Counter />
+      <Greeting />
       
     </>
   )
