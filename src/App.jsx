@@ -1,21 +1,15 @@
 import Counter from "./Counter"
 import Greeting from "./Greeting"
 import Props from "./Props"
+import Array from "./Array"
 
 function App() {
-  // let table = [{
-    
-  //     name: "Ken",
-  //     age: "20",
-  //     citizen: "Kenyan"
-  //   },
-  //   {
-  //     name: "John",
-  //     age: 21,
-  //     citizen: "Tanzania"
-  //   }
-  // ]
 
+//   table.map(function(tab){
+//     //console.log(tab)
+//     <Props name = {tab.name} citzen= {tab.citizen}/>
+// })
+ 
 
   return (
     <>
@@ -26,9 +20,10 @@ function App() {
       <Props table = {{
                     name: "Ken",
                     age: 20,
-                    citizen: "Kenyan"
+                    citizen: "Kenya"
                     }}/>
       <Props table  />
+      <Array />
       
     </>
 
