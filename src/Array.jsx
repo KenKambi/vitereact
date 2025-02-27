@@ -2,18 +2,11 @@ import table from "./data";
 import Props from "./Props";
 
 
-const Array = () => {
-
-    // table.map(function(tab){
-    //      //console.log(tab)
-    //      <Props name = {tab.name} citzen= {tab.citizen}/>
-    // })
-
-
-    //console.log(table);
+const Array = (props) => {
 
     return ( <>
-                <p> Hello</p>
+                <p> Hello {props.tables.name}</p>
+                <p> I come from {props.tables.citizen}</p>
             </> );
 }
  

@@ -2,13 +2,14 @@ import Counter from "./Counter"
 import Greeting from "./Greeting"
 import Props from "./Props"
 import Array from "./Array"
+import table from "./data"
 
 function App() {
 
-//   table.map(function(tab){
-//     //console.log(tab)
-//     <Props name = {tab.name} citzen= {tab.citizen}/>
-// })
+  const ans = table.map(function(tab){
+    //console.log(tab)
+     <Array tables = {tab} />
+})
  
 
   return (
@@ -22,8 +23,8 @@ function App() {
                     age: 20,
                     citizen: "Kenya"
                     }}/>
-      <Props table  />
-      <Array />
+      
+      {ans}
       
     </>
 
