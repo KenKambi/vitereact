@@ -6,9 +6,9 @@ import table from "./data"
 
 function App() {
 
-  const ans = table.map(function(tab){
+  const ans = table.map(function(tables){
     //console.log(tab)
-     <Array tables = {tab} />
+     <Array tables = {tables} />
 })
  
 
