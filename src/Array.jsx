@@ -1,6 +1,3 @@
-import table from "./data";
-import Props from "./Props";
-
 
 const Array = (props) => {
 

@@ -7,10 +7,11 @@ import table from "./data"
 function App() {
 
   const ans = table.map(function(tables){
-    //console.log(tab)
+    return(
      <Array tables = {tables} />
+    )
 })
- 
+// console.log (ans)
 
   return (
     <>
