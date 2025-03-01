@@ -4,9 +4,6 @@ import { useState } from "react";
 
 const Greeting = () => {
 
-
-
-
     const date = new Date();
     const hour = date.getHours();
     let greet = "";
