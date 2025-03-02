@@ -1,7 +1,5 @@
 import { useState } from "react";
 
-
-
 const Greeting = () => {
 
     const date = new Date();

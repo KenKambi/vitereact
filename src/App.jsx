@@ -3,6 +3,8 @@ import Greeting from "./Greeting"
 import Props from "./Props"
 import Array from "./Array"
 import table from "./data"
+import Datas from "./Datas"
+import data from "./mydata"
 
 function App() {
 
@@ -12,6 +14,13 @@ function App() {
     )
 })
 // console.log (ans)
+
+  const datas = data.map( function(data){
+
+    return(
+      < Datas data = {data}/>
+    )
+  }) 
 
   return (
     <>
@@ -26,6 +35,7 @@ function App() {
                     }}/>
       
       {ans}
+      {datas}
       
     </>
 

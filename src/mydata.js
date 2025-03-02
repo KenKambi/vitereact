@@ -1,0 +1,15 @@
+ let data = [{
+    name: "Francis",
+    age: 20,
+    email: "francis.gmail.com" 
+},
+{    name: "Nancy",
+    age: 24,
+    email: "nancy.gmail.com" 
+},
+{    name: "Bianca",
+    age: 22,
+    email: "bianca.gmail.com" 
+}]
+
+export default data
