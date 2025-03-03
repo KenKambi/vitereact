@@ -29,7 +29,7 @@ function Counter () {
 
     function resetCount(){
         setCount(0);
-        //console.log(count);
+        
     };
 
     return( 
