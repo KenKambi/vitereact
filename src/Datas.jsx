@@ -6,7 +6,7 @@ export default function Datas (props){
     //const [data, useData] = useState("hello")
      
     // function okayNow (){
-    //    // useData = "now";
+    //    useData = "now";
     // }
     
     return(
