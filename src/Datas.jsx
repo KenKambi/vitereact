@@ -3,11 +3,11 @@ import { useState } from "react"
 
 export default function Datas (props){
 
-    const [data, useData] = useState("hello")
+    //const [data, useData] = useState("hello")
      
-    function okayNow (){
-        useData = "now";
-    }
+    // function okayNow (){
+    //    // useData = "now";
+    // }
     
     return(
         <>
