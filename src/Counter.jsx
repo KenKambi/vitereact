@@ -10,8 +10,8 @@ function Counter () {
         document.title = "Counter";
     }, [])//will update only once because of the []
 
-    function handleNameChange(e){
-        setName(e.target.value);
+    function handleNameChange(event){
+        setName(event.target.value);
     };
 
     
