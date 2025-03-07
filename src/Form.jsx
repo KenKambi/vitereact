@@ -2,9 +2,14 @@
 
 const Form = () => {
 
+
+    function signUp (){
+
+    }
+
     return ( 
         <main>
-            <form action="si">
+            <form action={signUp}>
                 <label htmlFor="email">Email :</label>
                 <input id="email" type="email" placeholder="johnodoe@gmail.com"/>
                 <br />
@@ -44,7 +49,19 @@ const Form = () => {
                     <label htmlFor="time">Dinner</label>
                 </fieldset>
 
+                <select name="color" id="color"> 
+                    <option value="color" disabled > --Choose Color-- </option>
+                    <option value="color">Red</option>
+                    <option value="color">Orange</option>
+                    <option value="color">Blue</option>
+                    <option value="color">Yellow</option>
+
+                </select>
+                <br />
                 
+
+
+                <button>Submit</button>
 
             </form>
         </main>
