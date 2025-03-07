@@ -3,7 +3,9 @@
 const Form = () => {
 
 
-    function signUp (){
+    function signUp (formData){
+        const data = formData.get("email");
+        console.log(data);
 
     }
 
@@ -52,11 +54,11 @@ const Form = () => {
                 </fieldset>
 
                 <select name="color" id="color"> 
-                    <option value="color" disabled > --Choose Color-- </option>
-                    <option value="color">Red</option>
-                    <option value="color">Orange</option>
-                    <option value="color">Blue</option>
-                    <option value="color">Yellow</option>
+                    <option value="" disabled > --Choose Color-- </option>
+                    <option value="red">Red</option>
+                    <option value="orange">Orange</option>
+                    <option value="blue">Blue</option>
+                    <option value="yellow">Yellow</option>
 
                 </select>
                 <br />
