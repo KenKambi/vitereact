@@ -4,7 +4,9 @@ const Form = () => {
 
 
     function signUp (formData){
-        const data = formData.get("email");
+        
+        console.log (Object.fromEntries(formData))
+        const data = formData.getAll("time");
         console.log(data);
 
     }
