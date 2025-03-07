@@ -5,6 +5,7 @@ import Array from "./Array"
 import table from "./data"
 import Datas from "./Datas"
 import data from "./mydata"
+import Form from "./Form"
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
       <p>Hello There</p>
       <Counter />
       <Greeting />
+      <Form />
       
       <Props table = {{
                     name: "Ken",
