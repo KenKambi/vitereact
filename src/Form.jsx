@@ -5,9 +5,12 @@ const Form = () => {
 
     function signUp (formData){
         
-        console.log (Object.fromEntries(formData))
-        const data = formData.getAll("time");
-        console.log(data);
+        const data = Object.fromEntries(formData);
+        const time = formData.getAll("time");
+        console.log(time);
+
+        const allData = {...data, time};
+        console.log(allData);
 
     }
 
