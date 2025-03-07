@@ -16,19 +16,19 @@ const Form = () => {
 
     return ( 
         <main>
-            <h1> SignUp Form</h1>
+            <h1> SignUp Form </h1>
             <form action={signUp}>
 
                 <label htmlFor="email">Email :</label>
-                <input id="email" type="email" name="email" placeholder="johnodoe@gmail.com"/>
+                <input id="email" type="email" name="email" placeholder="johnodoe@gmail.com" required/>
                 <br />
 
                 <label htmlFor="password">Password :</label>
-                <input id="password" type="password" name="password" />
+                <input id="password" type="password" name="password" required/>
                 <br />
 
                 <label htmlFor="description"> Description : </label>
-                <textarea name="description" id="description"></textarea>
+                <textarea name="description" id="description" required></textarea>
 
                 <fieldset>
                     <legend>Food Choice</legend>
@@ -58,7 +58,7 @@ const Form = () => {
                     <label htmlFor="time">Night</label>
                 </fieldset>
 
-                <select name="color" id="color"> 
+                <select name="color" id="color" defaultValue="" required> 
                     <option value="" disabled > --Choose Color-- </option>
                     <option value="red">Red</option>
                     <option value="orange">Orange</option>
