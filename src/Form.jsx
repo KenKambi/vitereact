@@ -2,7 +2,6 @@
 
 const Form = () => {
 
-
     function signUp (formData) {
         
         const data = Object.fromEntries(formData);
@@ -19,15 +18,15 @@ const Form = () => {
             <h1> SignUp Form </h1>
             <form action={signUp}>
 
-                <label htmlFor="email">Email :</label>
+                <label htmlFor="email">Email : </label>
                 <input id="email" type="email" name="email" placeholder="johnodoe@gmail.com" required/>
                 <br />
 
-                <label htmlFor="password">Password :</label>
+                <label htmlFor="password">Password : </label> 
                 <input id="password" type="password" name="password" required/>
                 <br />
 
-                <label htmlFor="description"> Description : </label>
+                <label htmlFor="description"> Description </label> <br />
                 <textarea name="description" id="description" required></textarea>
 
                 <fieldset>
