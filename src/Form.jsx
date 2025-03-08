@@ -3,7 +3,7 @@
 const Form = () => {
 
 
-    function signUp (formData){
+    function signUp (formData) {
         
         const data = Object.fromEntries(formData);
         const time = formData.getAll("time");
