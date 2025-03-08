@@ -14,12 +14,11 @@ function App() {
      <Array tables = {tables} />
     )
 })
-// console.log (ans)
 
   const datas = data.map( function(data){
 
     return(
-      < Datas data = {data}/>
+      < Datas data = {data} /*handleClick = {handleClick}*//>
     )
   }) 
 
