@@ -10,6 +10,11 @@
 {    name: "Bianca",
     age: 22,
     email: "bianca.gmail.com" 
-}]
+},
+{
+    name: "Bob",
+    age: 24,
+    email: "bob.gmail.com" 
+},]
 
 export default data
