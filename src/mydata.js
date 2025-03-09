@@ -11,8 +11,7 @@
     age: 22,
     email: "bianca.gmail.com" 
 },
-{
-    name: "Bob",
+{   name: "Bob",
     age: 24,
     email: "bob.gmail.com" 
 },]
