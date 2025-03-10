@@ -16,7 +16,7 @@ function Counter () {
 
     
     function decreaseCount(){
-        setCount(c => c - 1);
+        setCount(prevCount => prevCount - 1);
         console.log(count);
 
     };
