@@ -13,7 +13,7 @@ const Greeting = () => {
         meridian = "AM";
         greet = "Good Morning";
     } 
-    else if ( hour >= 12 && hour < 17){
+    else if ( hour >= 12 && hour < 17 ){
         meridian = "PM";
         greet = "Good Afternoon";
     }

@@ -8,7 +8,6 @@ export default function Datas (props){
         <>
         <p>My name is {props.data.name}. I am {props.data.age} years old. </p>
         <p>Email: {props.data.email} </p>
-        <button onClick={props.handleClick}>Button</button>
         </>
     )
 }
