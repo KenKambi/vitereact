@@ -9,11 +9,11 @@ function Counter () {
     useEffect(function (){
         document.title = "Counter";
     }, [])//will update only once because of the []
-
+    
+    
     function handleNameChange(event){
         setName(event.target.value);
     };
-
     
     function decreaseCount(){
         setCount(prevCount => prevCount - 1);
