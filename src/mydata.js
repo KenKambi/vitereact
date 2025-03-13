@@ -1,4 +1,4 @@
- let data = [{
+let data = [{
     name: "Francis",
     age: 20,
     email: "francis.gmail.com" 
@@ -16,4 +16,5 @@
     email: "bob.gmail.com" 
 },]
 
+console.log("hello");
 export default data
