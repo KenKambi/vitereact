@@ -5,7 +5,7 @@ function Header (){
     const  [count, setCount] = useState(0)
 
     function changeCount(){
-        setCount(c => c + 1);
+        setCount(c => c + 1);//previous cont then add 1
     }
 
     return(
