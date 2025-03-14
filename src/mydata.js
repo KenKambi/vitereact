@@ -16,5 +16,5 @@ let data = [{
     email: "bob.gmail.com" 
 },]
 
-console.log("hello");
+
 export default data
