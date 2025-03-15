@@ -14,7 +14,7 @@ let data = [{
 {   name: "Bob",
     age: 24,
     email: "bob.gmail.com" 
-},]
+}]
 
 
 export default data
