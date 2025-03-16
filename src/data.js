@@ -1,6 +1,6 @@
  let table = [{
     
-      name: "Ken",
+      name: "Joseph",
       age: 20,
       citizen: "Kenya"
     },

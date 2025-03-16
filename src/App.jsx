@@ -30,8 +30,8 @@ function App() {
       <Form />
       
       <Props table = {{
-                    name: "Ken",
-                    age: 20,
+                    name: "Sally",
+                    age: 11,
                     citizen: "Kenya"
                     }}/>
       
