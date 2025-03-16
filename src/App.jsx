@@ -31,9 +31,6 @@ function App() {
       <Counter />
       <Greeting />
       <Form />
-      
-      
-      
       {ans}
       {datas}
       
