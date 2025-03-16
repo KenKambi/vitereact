@@ -13,7 +13,7 @@ function App() {
     return(
       <>
       <Array tables = {tables} />
-      <Props table = {table} />
+      <Props table = {table} />  
       </>
     )
 })
