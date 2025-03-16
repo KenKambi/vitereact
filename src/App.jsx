@@ -11,7 +11,10 @@ function App() {
 
   const ans = table.map(function(tables){
     return(
-     <Array tables = {tables} />
+      <>
+      <Array tables = {tables} />
+      <Props table = {table} />
+      </>
     )
 })
 
@@ -29,11 +32,7 @@ function App() {
       <Greeting />
       <Form />
       
-      <Props table = {{
-                    name: "Sally",
-                    age: 11,
-                    citizen: "Kenya"
-                    }}/>
+      
       
       {ans}
       {datas}
