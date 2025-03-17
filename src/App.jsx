@@ -9,7 +9,7 @@ import Form from "./Form"
 
 function App() {
 
-  const ans = table.map(function(tables){
+  const ans = table.map((tables) => {
     return(
       <>
       <Array tables = {tables} />
