@@ -15,7 +15,7 @@ Props.propTypes = {
     age: PropTypes.number,
 }
 
-//default props
+//default props as placeholders
 Props.defaultProps = {
     name : "Guest",
     age : 0,
