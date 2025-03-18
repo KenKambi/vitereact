@@ -9,11 +9,13 @@ const Props = (props) => {
             </> );
 }
 
+//proptypes
 Props.propTypes = {
     name: PropTypes.string,
     age: PropTypes.number,
 }
 
+//default props
 Props.defaultProps = {
     name : "Guest",
     age : 0,
