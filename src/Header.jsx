@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Header (){
+export default function Header (){
 
     const  [count, setCount] = useState(0)
     const [name, setName] = useState("Ken Kambi")
@@ -19,5 +19,3 @@ function Header (){
 
     );
 }
-
-export default Header
