@@ -22,14 +22,14 @@ const Greeting = () => {
         greet = "Good Night";
     }
 
-    const style ={
+    const styles ={
         backgroundColor: "orange",
         fontSize : "30px",
     }
 
     return ( 
         <>
-            <p style={style}>
+            <p style={styles}>
                 Greeting: {greet}. The time is {hour} {meridian}.
             </p>
             <p style={{backgroundColor : "green"}}> Let's change the color</p>
