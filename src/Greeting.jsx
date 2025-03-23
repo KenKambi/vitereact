@@ -7,6 +7,7 @@ const Greeting = () => {
     let meridian = "";
     console.log(hour);
     
+    
     if (hour < 12){
         console.log("AM");
         meridian = "AM";
@@ -31,7 +32,7 @@ const Greeting = () => {
             <p style={styles}>
                 Greeting: {greet}. The time is {hour} {meridian}.
             </p>
-            <p style={{backgroundColor : "green"}}> Let's change the color</p>
+            <p style={{backgroundColor : "yellow"}}> Let's change the color</p>
         </>
      );
 }
