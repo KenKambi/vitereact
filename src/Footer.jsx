@@ -7,8 +7,7 @@ export default function Footer (){
     return(
             <footer>
                 <p> My pet is called {petName}</p>
-                <p> &copy; Thanks for visiting our website</p>
-                <p> The current year is {new Date().getFullYear()} </p>
+                <small> &copy; {new Date().getFullYear()} Thanks for visiting our website </small>
             </footer>
     );
 }

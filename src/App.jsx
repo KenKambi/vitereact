@@ -6,6 +6,7 @@ import table from "./data"
 import Datas from "./Datas"
 import data from "./mydata"
 import Form from "./Form"
+import Footer from "./Footer"
 
 function App() {
 
@@ -33,7 +34,7 @@ function App() {
       <Form />
       {ans}
       {datas}
-      
+      <Footer/>
     </>
 
   )
