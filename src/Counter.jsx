@@ -32,14 +32,14 @@ function Counter () {
 
     return( 
             <>
-            <p> {count} </p>
-            <button onClick={decreaseCount} >Decrease</button>
-            <button onClick={resetCount} >Reset</button>
-            <button onClick={increaseCount} >Increase</button>
-            <div>
-                <input type="text" name="name" id="1" value={name} onChange={handleNameChange}/>
-                <p> {name} </p>
-            </div>
+                <p> {count} </p>
+                <button onClick={decreaseCount} >Decrease</button>
+                <button onClick={resetCount} >Reset</button>
+                <button onClick={increaseCount} >Increase</button>
+                <div>
+                    <input type="text" name="name" id="1" value={name} onChange={handleNameChange}/>
+                    <p> {name} </p>
+                </div>
             </>
     );
 }
