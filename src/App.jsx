@@ -22,7 +22,7 @@ function App() {
   const datas = data.map( function(data){
 
     return(
-      < Datas data = {data} /*handleClick = {handleClick}*//>
+      < Datas data = {data} />
     )
   }) 
 
