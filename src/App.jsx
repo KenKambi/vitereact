@@ -13,8 +13,8 @@ function App() {
   const ans = table.map((tables) => {
     return(
       <>
-      <Array tables = {tables} />
-      <Props table = {table} />  
+        <Array tables = {tables} />
+        <Props table = {table} />  
       </>
     )
 })
