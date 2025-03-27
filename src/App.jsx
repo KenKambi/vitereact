@@ -19,7 +19,7 @@ function App() {
     )
 })
 
-  const datas = data.map( function(data){
+  const datas = data.map(function(data){
 
     return(
       < Datas data = {data} />
