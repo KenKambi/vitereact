@@ -14,6 +14,10 @@ let data = [{
 {   name: "Bob",
     age: 24,
     email: "bob.gmail.com" 
+},
+{   name: "Emily",
+    age: 20,
+    email: "emily.gmail.com" 
 }]
 
 
