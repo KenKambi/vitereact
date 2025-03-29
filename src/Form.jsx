@@ -30,7 +30,7 @@ const Form = () => {
                 <textarea name="description" id="description" required></textarea>
 
                 <fieldset>
-                    <legend>Food Choice</legend>
+                    <legend>Foods</legend>
                     <input id="food" type="radio" name="food" value="breakfast"/>
                     <label htmlFor="food">Breakfast</label>
                     <br />
