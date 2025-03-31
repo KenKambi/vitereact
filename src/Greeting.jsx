@@ -5,7 +5,7 @@ const Greeting = () => {
     const hour = date.getHours();
     let greet = "";
     let meridian = "";
-    console.log(hour);
+    //console.log(hour);
     
     
     if (hour < 12){
