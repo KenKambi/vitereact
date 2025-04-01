@@ -31,7 +31,7 @@ function Counter () {
 
     return( 
             <>
-                <p> {count} </p>
+                <h2> {count} </h2>
                 <button onClick={decreaseCount} >Decrease</button>
                 <button onClick={resetCount} >Reset</button>
                 <button onClick={increaseCount} >Increase</button>
