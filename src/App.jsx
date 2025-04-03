@@ -8,7 +8,7 @@ import data from "./mydata"
 import Form from "./Form"
 import Footer from "./Footer"
 
-function App() {
+export default function App() {
 
   const ans = table.map((tables) => {
     return(
@@ -40,4 +40,4 @@ function App() {
   )
 }
 
-export default App
+
