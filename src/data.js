@@ -1,5 +1,5 @@
- let table = [{
-    
+ let table = [
+    {
       name: "Joseph",
       age: 20,
       citizen: "Kenya"
