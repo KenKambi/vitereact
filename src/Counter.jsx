@@ -30,7 +30,7 @@ function Counter () {
     };
 
     return( 
-            <>
+            <div>
                 <h2> {count} </h2>
                 <button onClick={decreaseCount} >Decrease</button>
                 <button onClick={resetCount} >Reset</button>
@@ -39,7 +39,7 @@ function Counter () {
                     <input type="text" name="name" id="1" value={name} onChange={handleNameChange}/>
                     <p> {name} </p>
                 </div>
-            </>
+            </div>
     );
 } 
 
