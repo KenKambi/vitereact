@@ -23,7 +23,7 @@ const Greeting = () => {
 
     const styles ={
         backgroundColor: "green",
-        fontSize : "30px",
+        fontSize : "2 rem",
     }
 
     return ( 
