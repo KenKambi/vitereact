@@ -6,7 +6,7 @@ export default function Header (){
     const name = "Ken Kambi"
 
     function changeCount(){
-        setCount(c => c + 1);//previous cont then add 1
+        setCount(c => c + 1);//previous count then add 1
     }
 
     return(
