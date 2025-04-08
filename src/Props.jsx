@@ -8,7 +8,7 @@ const Props = (props) => {
             </> );
 }
 
-//proptypes
+//type of prop
 Props.propTypes = {
     name: PropTypes.string,
     age: PropTypes.number,
