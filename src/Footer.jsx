@@ -2,7 +2,7 @@
 
 export default function Footer (){
 
-    const petName = "Zoro";
+    const petName = "Sanji";
 
     return(
             <footer>
