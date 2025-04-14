@@ -7,7 +7,7 @@ function Counter () {
     const [name, setName] = useState("");
 
     useEffect(function (){
-        document.title = "React";
+        document.title = "My React App";
     }, [])//will update only once because of the []
     
     function handleNameChange(event){
