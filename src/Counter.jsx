@@ -39,6 +39,7 @@ function Counter () {
                     <input type="text" name="name" id="1" value={name} onChange={handleNameChange}/>
                     <p> {name} </p>
                 </div>
+                <img src="/assets/react.svg" alt="React Logo" />
             </div>
     );
 } 
