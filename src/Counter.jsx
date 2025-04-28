@@ -8,7 +8,7 @@ function Counter () {
 
     useEffect(function (){
         document.title = "My React App";
-    }, [])//will update only once because of the []
+    }, [])//Render once
     
     function handleNameChange(event){
         setName(event.target.value);
